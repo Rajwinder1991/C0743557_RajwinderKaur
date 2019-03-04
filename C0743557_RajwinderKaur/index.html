@@ -4,9 +4,28 @@
     <meta charset="utf-8" />
     <title>C0743557_RajwinderKaur</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script>
+        var calculator = {
+            sum:0,
+            starter : 1109,
+            stepdown : 11,
+            stopnumber : 119,
+            adder: function () {
+                for (var i = this.starter; i >= this.stopnumber; i -= this.stepdown) {
+                    this.sum += i;
+                } return this.sum;
+            }
+        };
+        document.write(calculator.adder());
+
+   
+
+    </script>
 </head>
 <body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <div></div>
+    <script src="js/main.js">
+
+    </script>
 </body>
 </html>
